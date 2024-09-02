@@ -1,12 +1,40 @@
 body {
   background-color: #1d0a00;
+  font-family: "Times New Roman", Times, serif;
 }
 .screen {
   background-color: #fdbc1d;
   color: #1d0a00;
   max-width: 500px;
   max-height: 350px;
-  margin: 0 auto;
+  margin: 60px auto;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+}
+.grid-2-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.button-link {
+  color: #fdbc1d;
+  background-color: #1d0a00;
+  font-size: 40px;
+  text-decoration: none;
+  text-align: center;
+  margin: 10px 0;
+  padding: 0;
+}
+.button-link:hover {
+  color: #fdbc1d;
+  background-color: #1d0a00a0;
+  cursor: pointer;
 }
 
 footer {
