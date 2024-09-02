@@ -7,7 +7,7 @@ body {
   color: #1d0a00;
   max-width: 500px;
   max-height: 350px;
-  margin: 60px auto;
+  margin: 100px auto;
   border-radius: 5px;
 }
 
@@ -23,10 +23,12 @@ h1 {
 }
 .signal {
   font-size: 50px;
+  color: #1d0a00;
 }
 .battery {
   font-size: 50px;
   text-align: end;
+  color: #1d0a00;
 }
 .dateAndTime {
   font-size: 45px;
