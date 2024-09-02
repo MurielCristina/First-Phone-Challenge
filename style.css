@@ -21,6 +21,13 @@ h1 {
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
 }
+.signal {
+  font-size: 50px;
+}
+.battery {
+  font-size: 50px;
+  text-align: end;
+}
 .dateAndTime {
   font-size: 45px;
 }
