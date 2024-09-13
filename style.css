@@ -7,6 +7,7 @@ body {
   color: #1d0a00;
   max-width: 476px;
   max-height: 271.5px;
+  height: 271.5px;
   margin: 100px auto;
   border-radius: 5px;
   display: flex;
@@ -56,6 +57,7 @@ h1 {
   flex: 1;
   padding: 10px;
   box-sizing: border-box;
+  height: 100%;
   max-height: 100%;
 }
 #screen-two::-webkit-scrollbar {
@@ -93,6 +95,8 @@ footer a:hover {
 @media (max-width: 768px) {
   .mainScreen {
     max-width: 90%;
+    max-height: 271.5px;
+    height: 271.5px;
   }
   h1 {
     font-size: 40px;
@@ -103,6 +107,7 @@ footer a:hover {
   .button-link {
     font-size: 35px;
   }
+
   footer {
     margin: 0px 30px;
     font-size: 10px;
