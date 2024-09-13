@@ -2,7 +2,7 @@ body {
   background-color: #1d0a00;
   font-family: "Times New Roman", Times, serif;
 }
-.screen {
+.mainScreen {
   background-color: #fdbc1d;
   color: #1d0a00;
   max-width: 476px;
@@ -10,7 +10,6 @@ body {
   margin: 100px auto;
   border-radius: 5px;
 }
-
 h1 {
   font-size: 55px;
   font-weight: bold;
@@ -52,11 +51,31 @@ footer {
   font-size: 14px;
   color: rgb(122, 122, 122);
   text-align: center;
+  margin: 0 350px;
 }
 footer a {
   color: #fdbc1d;
   text-decoration: none;
+  opacity: 0.6;
 }
 footer a:hover {
   color: orange;
+}
+@media (max-width: 768px) {
+  .mainScreen {
+    max-width: 90%;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .dateAndTime {
+    font-size: 30px;
+  }
+  .button-link {
+    font-size: 35px;
+  }
+  footer {
+    margin: 0px 30px;
+    font-size: 10px;
+  }
 }
