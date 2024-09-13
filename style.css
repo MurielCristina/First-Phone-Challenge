@@ -9,6 +9,9 @@ body {
   max-height: 271.5px;
   margin: 100px auto;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 h1 {
   font-size: 55px;
@@ -49,8 +52,24 @@ h1 {
 
 #screen-two {
   display: none;
+  overflow-y: auto;
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+  max-height: 100%;
+}
+#screen-two::-webkit-scrollbar {
+  width: 8px;
 }
 
+#screen-two::-webkit-scrollbar-track {
+  background: #fdbc1d;
+}
+
+#screen-two::-webkit-scrollbar-thumb {
+  background: #1d0a00;
+  border-radius: 10px;
+}
 footer {
   font-size: 14px;
   color: rgb(122, 122, 122);
